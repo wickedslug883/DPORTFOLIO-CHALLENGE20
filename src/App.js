@@ -15,14 +15,14 @@ import Navbar from './components/Navbar'
 function App() {
   return (
    
-      <Router>
+      <Router >
     <div className='App'>
       <Navbar />
       <Routes>
-     <Route exact path="/home" element={< Home/>}/>
-     <Route exact path="/contact"element={< Bio />}/>
-     <Route exact path="/portfolio"element={< Work />}/>
-     <Route exact path="/resume"element={< Resume />}/>
+     <Route exact path="/DPORTFOLIO-CHALLENGE20/home" element={< Home/>}/>
+     <Route exact path="/DPORTFOLIO-CHALLENGE20/contact"element={< Bio />}/>
+     <Route exact path="/DPORTFOLIO-CHALLENGE20/portfolio"element={< Work />}/>
+     <Route exact path="/DPORTFOLIO-CHALLENGE20/resume"element={< Resume />}/>
      
      
      </Routes>
