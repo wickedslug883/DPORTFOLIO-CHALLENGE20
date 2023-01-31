@@ -1,0 +1,481 @@
+
+@font-face {
+  font-family: 'Takumi';
+  src: local('Takumi'), url(fonts/TAKUMIYFONTMINI_P.ttf) format('woff');
+}
+
+@font-face {
+  font-family: 'Minister';
+  src: local('Minister'), url(fonts/minster1.ttf) format('woff');
+}
+@font-face {
+  font-family: 'Vila';
+  src: local('Vila'), url(fonts/vila\ madalena.ttf) format('woff');
+}
+* {
+  margin: 0 ;
+  padding: 0;
+}
+body {
+overflow: hidden;
+  background-color: rgb(39, 39, 46);
+  display: flex;
+
+}
+#root {
+  display: flex;
+}
+#soil {
+ 
+}
+/* home */
+h3 {
+  font-size: 2em ;
+  font-family: 'Minister' ;
+  border-bottom: solid rgb(0, 0, 0) 2px;
+  padding: 2%;
+  margin: 2%;;
+  background: rgb(233,141,0);
+background: linear-gradient(357deg, rgba(233,141,0,1) 0%, rgba(194,176,151,1) 47%, rgba(59,54,54,1) 100%);
+}
+.homeContainer {
+  width: 85vw;
+  height: 85vh;
+  background-color: rgb(48, 48, 85);
+  display: flex;
+  flex-flow: row wrap;
+}
+.homeH2{
+  font-family: 'Vila';
+  font-weight: 800;
+  color: rgb(58, 58, 70);
+  text-decoration: dotted;
+  border-bottom: 5px black;
+  font-size: 15em;
+}
+.homeJam {
+  
+  text-align: center;
+  font-weight: 750;
+  font-size: x-large;
+  width: 400px;
+  height: 360px;
+  border: solid black 2px;
+  margin: 25px;
+  overflow-y: scroll;
+}
+.homeJammie {
+  padding: 10px;
+  margin: 10px;
+  border: solid white 1px;
+}
+#about2{
+  height: 300px;
+}
+#about3 {
+  height: 300px;
+  margin-left: 35%;
+ 
+ 
+}
+/* bio */
+.contactBase {
+    width: 85vw;
+  height: 85vh;
+  background-color: rgb(83, 83, 71);
+}
+.contactH2 {
+  font-family: 'Vila';
+  font-weight: 800;
+  color: rgb(58, 58, 70);
+  text-decoration: dotted;
+  border-bottom: 5px black;
+  font-size: 15em;
+}
+.contactEXCL {
+
+}
+.bioForm {
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.bioLabel {
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: 'Takumi' ;
+}
+.bioInput {
+  margin-left: 20px;
+  border: 2px solid  black;
+  font-size: 1rem;
+}
+.bioInput2 {
+
+  border: 2px solid  black;
+  font-size: 1rem;
+}
+.bioButton {
+  position: absolute;
+right: 25%;
+top: 60%;  
+font-family: 'Takumi';
+  height: 200px;
+  width: 200px;
+  background-color: rgb(160, 45, 45);
+  border-radius: 50%;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-shadow: rgb(255, 255, 255) -2px 5px;
+ 
+}
+.bioButton:hover {
+
+}
+.navContainer {
+  width: 100vw;
+  height: 15vh;
+ 
+  background-color: rgb(26, 25, 25);
+  border-bottom: 1px solid white;
+  display: flex;
+}
+.navLeft {
+  height: 15vh;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+padding-left: 2%;
+}
+.navBrand {
+  font-weight: 900;
+  font-size: 5rem ;
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+.navRight {
+  height: 15vh;
+  width: 50vw;
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
+.navLinks {
+  color: rgb(255, 255, 255);
+
+  position: relative;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: xx-large ;
+  padding-left: 13px;
+  padding-right: 13px;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+/* nav animations */
+#navHome {
+  position: absolute;
+	z-index: -1;
+  bottom: 0;
+  border: 70px solid transparent;
+  border-top: 0;
+  border-bottom: 65px solid rgb(48, 48, 85);
+}
+#navCont {
+  position: absolute;
+	z-index: -1;
+  bottom: 0;
+  border: 70px solid transparent;
+  border-top: 0;
+  border-bottom: 65px solid rgb(83, 83, 71);
+}
+#navPort {
+  position: absolute;
+	z-index: -1;
+  bottom: 0;
+  border: 70px solid transparent;
+  border-top: 0;
+  border-bottom: 65px solid rgb(174, 175, 113);
+}
+#navResume {
+  position: absolute;
+	z-index: -1;
+  bottom: 0;
+  border: 70px solid transparent;
+  border-top: 0;
+  border-bottom: 65px solid rgb(175, 127, 113);
+}
+/* portfolio */
+.portContainer {
+  width: 85vw;
+  height: 85vh;
+  background-color: rgb(174, 175, 113);
+  display: flex;
+  flex-flow: row wrap;
+}
+.portH2 {
+  font-family: 'Vila';
+  font-weight: 800;
+  color: rgb(58, 58, 70);
+  font-size: 14em;
+
+}
+.portH3 {
+  width: 300px;
+ 
+  text-align: center;
+  background: rgb(57,65,129);
+  background: linear-gradient(357deg, rgba(57,65,129,1) 0%, rgba(156,146,146,1) 47%, rgba(219,206,206,1) 100%);
+}
+.portJam {
+  width: 350px;
+  height: 265px;
+  margin: 15px;
+  margin-top: 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-left: 10%;
+}
+.portJammie {
+  width: 85vw;
+  height: 85vh;
+  background-color: rgb(174, 175, 113);
+  display: flex;
+  flex-flow: row wrap;
+}
+/* RESUME */
+.resumeContainer {
+  width: 85vw;
+  height: 85vh;
+  background-color:  rgb(175, 127, 113);
+  display: flex;
+  flex-flow: row wrap;
+}
+/* sidebar */
+.sideContainer {
+  margin-top: 17.5vh;
+  display: flex;
+  align-content: center;
+  justify-content: flex-end;
+flex-direction: column;
+  position: relative;
+right:  290%;
+height: 85vh;
+width: 10vh;
+
+}
+.sideTop {
+  height: 42.5vh;
+ position: relative;
+ width: 275px;
+ top: 0;
+ 
+}
+.scFrame {
+ height: 25%;
+width: 275px;
+
+
+}
+.sideH4 { 
+ font-family: 'Vila';
+ font-size: large;
+ line-height: 30px;
+ color: red;
+ font-weight: 800;
+ text-align: center;
+
+ 
+}
+
+.sideH5 {
+ font-family: 'Takumi';
+   text-align: center;
+}
+.sideBottom {
+  height: 42.5vh;
+  width: 275px;
+
+  padding-top: 20px;
+}
+.sideToppie {
+  overflow: scroll;
+  width: 275px;
+  font-weight: 900;
+  font-size: 1.2rem;
+  color: rgb(167, 158, 158);
+  background-color: black;
+}
+
+   /* <!-- For Desktop --> */
+@media only screen and (max-width: 1200px) {
+
+}  
+/* <!-- For Laptop --> */
+@media only screen and (max-width: 992px) {
+
+} 
+ /* <!-- For Tab --> */
+@media only screen and (max-width: 767px) {
+
+} 
+ /* <!-- For Mobile -->  */
+@media only screen and (max-width: 480px) {
+  body {
+
+  }
+  .App {
+  }
+  #soil {
+    
+    width: 75px !important;
+  }
+  .homeContainer {
+    display: flex;
+    flex-direction: row wrap;
+    overflow-y: scroll;
+
+     width: 80%;
+  
+   }
+   .homeH2 {
+    font-size: 4.5em;
+   }
+   .homeJam  {
+
+    width: 200px;
+  }
+  .homePic {
+  width: 200px !important;
+ position: absolute;
+
+  }
+  #about3 {
+
+
+
+  }
+    .portContainer {
+  
+     
+      overflow-y: scroll;
+
+    width: 80%;
+ 
+  }
+  .resumeContainer {
+  
+  
+    overflow-y: scroll;
+height: 100%;
+  width: 80%;
+
+}
+.contactBase {
+
+  overflow-y: scroll;
+width: 80%;
+}
+.bioButton {
+  position: relative;
+left: 15%;
+}
+textarea{
+  max-height: 250px;
+}
+.contactH2 {
+  font-size: 2.5em;
+}
+  .portH2 {
+    font-size: 2.5em;
+  }
+  .portH3 {
+    width: 100px;
+  }
+  .portJam  {
+    width: 200px;
+  }
+  .portJammer {
+    width: 150px !important;
+  }
+  .portVideo {
+    width: 150px !important;
+  }
+  .navContainer {
+  
+height: 24.2%;
+  }
+  .navLeft {
+  min-width: 50%;
+
+  }
+  .navBrand {
+    font-size: 2em;
+
+  }
+  .navRight {
+   position: relative;
+  top: 40%;
+  right: 7%;
+
+  }
+  #navHome {
+    border: 40px solid transparent;
+   
+    border-bottom: 45px solid rgb(48, 48, 85);
+  }
+  #navCont {
+    border: 40px solid transparent;
+   
+    border-bottom: 45px solid rgb(83, 83, 71);
+  }
+  #navPort {
+    border: 40px solid transparent;
+   
+    border-bottom: 45px solid rgb(174, 175, 113);
+  }
+#navResume {
+  border: 40px solid transparent;
+   
+  border-bottom: 45px solid rgb(175, 127, 113);
+}
+  .navLinks {
+    width: 50px;
+    font-size: 1.1em;
+  }
+  .sideContainer {
+    
+    position: relative;
+    top: 8%;
+    right: 105%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  
+  }
+  .sideH4 , .sideH5 {
+    width: 75px;  
+    font-size: .5em;  
+  }
+  .sideBottom {
+   position: relative;
+   top: 15%;
+   width: 75px;
+  }
+  .sideToppie {
+    width: 75px;
+  }
+ .icon-div{
+  width: 300px;
+  display: flex;
+ flex-flow:column wrap;
+ }
+
+  .scFrame {
+   width: 75px;
+    
+  }
+}
